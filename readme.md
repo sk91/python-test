@@ -1,4 +1,4 @@
-Python assigment
+Python assignment
 ================
 
 Please write a Python (version 2.7.X) time sync program that will consist of a server and clients.
