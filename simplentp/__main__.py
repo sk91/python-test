@@ -47,14 +47,14 @@ def print_help():
         Help:
         -----------------------------------------------------------
         You mast use the program with a command help|client|server
-        Example: python stratoscale server 120.0.0.1 8888
+        Example: python simplentp server 127.0.0.1 8888
 
         help ------- Show this help
-        client ----- Start client. Usage:  python stratoscale client ip port
+        client ----- Start client. Usage:  python simplentp client ip port
                      While running client in an interactive mode
                      (not a deamon)  type 'time' to see the current
                      master time.
-        server ----- start server. Usage: python stratoscale server [ip] [port]
+        server ----- start server. Usage: python simplentp server [ip] [port]
                      Defaults: ip = 0.0.0.0 , port = 8888
     '''
 
