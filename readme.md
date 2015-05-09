@@ -1,5 +1,8 @@
-Python assignment
-================
+Simple NTP
+===========
+
+Requiremnets
+-------------
 
 Please write a Python (version 2.7.X) time sync program that will consist of a server and clients.
 I should be able to run the server on one machine, and few (<100) clients on different machines in the same network.
@@ -14,10 +17,10 @@ No GUI is needed, the UI should be console based, and as simple as possible.
 
 
 Usage:
-======
+------
 
 You mast use the program with a command client|server
-Example: `python ./simplentp server 120.0.0.1 8888`
+Example: `python ./simplentp server 127.0.0.1 8888`
 
 ## Commands:
 
